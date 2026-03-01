@@ -176,6 +176,10 @@ Retrieval Augmented Generation - how LLMs access external knowledge through vect
 
 Controls that affect how LLMs generate output (temperature, top-p, etc.).
 
+### nonllmcontext/system_tokens_hallucinations.md
+
+System prompts, token limits, and hallucinations - core LLM concepts.
+
 ---
 
 ## 7. References
