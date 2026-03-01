@@ -184,6 +184,10 @@ System prompts, token limits, and hallucinations - core LLM concepts.
 
 Fine-tuning - customizing model behavior with your own data.
 
+### [nonllmcontext/lora.md](nonllmcontext/lora.md)
+
+LoRA / QLoRA - efficient fine-tuning with low-rank adapters and quantization.
+
 ---
 
 ## 5. References
@@ -220,7 +224,7 @@ Topics to explore later:
 | Topic | Description | Status |
 |-------|-------------|--------|
 | Fine-tuning | Customizing model behavior with your own data | ✅ Done |
-| LoRA / QLoRA | Efficient fine-tuning (low-rank adaptation) | |
+| LoRA / QLoRA | Efficient fine-tuning (low-rank adaptation) | ✅ Done |
 | Function calling | Structured JSON output for tools | |
 | JSON mode | Force valid JSON responses | |
 | Seed/determinism | Reproducible outputs | |
