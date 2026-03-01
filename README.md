@@ -196,6 +196,10 @@ Function calling - structured JSON output for tools, and how it relates to MCP.
 
 Seed / determinism - reproducible outputs from LLMs.
 
+### [nonllmcontext/prompt_injection.md](nonllmcontext/prompt_injection.md)
+
+Prompt injection - security vulnerability via malicious prompts.
+
 ---
 
 ## 5. References
@@ -236,7 +240,7 @@ Topics to explore later:
 | Function calling | Structured JSON output for tools | ✅ Done |
 | JSON mode | Force valid JSON responses | ✅ Done |
 | Seed/determinism | Reproducible outputs | ✅ Done |
-| Prompt injection | Security vulnerability via prompts | |
+| Prompt injection | Security vulnerability via prompts | ✅ Done |
 | Guardrails | Filtering unsafe outputs | |
 | Evaluation | How to measure LLM quality | |
 | Benchmark datasets | MMLU, HumanEval, etc. | |
