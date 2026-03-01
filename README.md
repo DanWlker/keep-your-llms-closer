@@ -206,3 +206,26 @@ System prompts, token limits, and hallucinations - core LLM concepts.
 | Dec 2025 | OpenAI and Microsoft adopt SKILL.md |
 | Jan 2026 | Google Gemini CLI support; skills.sh launches |
 | Feb 2026 | Ecosystem surpasses 280K skills |
+
+---
+
+## TODO: Advanced Topics
+
+Topics to explore later:
+
+| Topic | Description |
+|-------|-------------|
+| Fine-tuning | Customizing model behavior with your own data |
+| LoRA / QLoRA | Efficient fine-tuning (low-rank adaptation) |
+| Function calling | Structured JSON output for tools |
+| JSON mode | Force valid JSON responses |
+| Seed/determinism | Reproducible outputs |
+| Prompt injection | Security vulnerability via prompts |
+| Guardrails | Filtering unsafe outputs |
+| Evaluation | How to measure LLM quality |
+| Benchmark datasets | MMLU, HumanEval, etc. |
+| Quantization | Smaller models (4-bit, 8-bit) |
+| Distillation | Smaller model trained on larger one |
+| Multi-modal | Vision, audio in LLMs |
+| Agents | Full agent architectures |
+| Memory systems | Short-term vs long-term |
