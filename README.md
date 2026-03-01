@@ -192,6 +192,10 @@ LoRA / QLoRA - efficient fine-tuning with low-rank adapters and quantization.
 
 Function calling - structured JSON output for tools, and how it relates to MCP.
 
+### [nonllmcontext/determinism.md](nonllmcontext/determinism.md)
+
+Seed / determinism - reproducible outputs from LLMs.
+
 ---
 
 ## 5. References
@@ -231,7 +235,7 @@ Topics to explore later:
 | LoRA / QLoRA | Efficient fine-tuning (low-rank adaptation) | ✅ Done |
 | Function calling | Structured JSON output for tools | ✅ Done |
 | JSON mode | Force valid JSON responses | ✅ Done |
-| Seed/determinism | Reproducible outputs | |
+| Seed/determinism | Reproducible outputs | ✅ Done |
 | Prompt injection | Security vulnerability via prompts | |
 | Guardrails | Filtering unsafe outputs | |
 | Evaluation | How to measure LLM quality | |

@@ -97,11 +97,61 @@ response = llm.chat(
 )
 ```
 
+The schema is included in the context - just text telling the LLM what format to output:
+
+```
+[Context sent to LLM]
+System: You are a helpful assistant.
+Output format: JSON
+
+User: Give me a color
+
+LLM generates: {"color": "blue"}
+```
+
+### With Schema
+
+For stricter output, provide a schema:
+
+```python
+response = llm.chat(
+    prompt,
+    response_format={
+        "type": "json_object",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "color": {"type": "string"},
+                "hex": {"type": "string"},
+                "rgb": {
+                    "type": "object",
+                    "properties": {
+                        "r": {"type": "integer"},
+                        "g": {"type": "integer"},
+                        "b": {"type": "integer"}
+                    }
+                }
+            },
+            "required": ["color"]
+        }
+    }
+)
+```
+
 ### Limitations
 
 - Still can produce invalid JSON (model may "hallucinate" JSON structure)
 - Must provide JSON schema for best results
 - Not all models support it
+- Schema is just in context - LLM may not follow exactly
+
+### JSON Mode vs Function Calling
+
+| Feature | JSON Mode | Function Calling |
+|---------|-----------|------------------|
+| Execution | No | Yes |
+| Strictness | Can still be invalid | More reliable |
+| Use case | Get structured data | Trigger actions |
 
 ---
 
