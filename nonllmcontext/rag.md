@@ -155,6 +155,82 @@ LLM generates answer
 
 ---
 
+## How Embeddings Learn Meaning
+
+### The Core Question
+
+How does the model know that "ball" is close to "circle"? Everything is just text...
+
+### Distributional Semantics
+
+> "You shall know a word by the company it keeps" — J.R. Firth, 1957
+
+Words that appear in similar **contexts** have similar meanings.
+
+### Training Process
+
+The model is trained on massive text data:
+
+```
+Training data: Millions of sentences
+
+"The ball is round"
+"The circle is round"  
+"The square has corners"
+"The ball rolled down"
+"The circle rolled down"
+```
+
+The model learns:
+- "ball" and "circle" appear in similar contexts (round, rolled)
+- "ball" and "square" appear in different contexts
+
+### What Actually Happens
+
+```
+Input: "The ball is round"
+
+Model learns:
+- "ball" appears near "round", "rolled", "played"
+- These patterns → vector coordinates
+```
+
+After training on billions of sentences:
+- "ball" vector is close to "circle" (both appear with "round", "shape")
+- "ball" vector is far from "algorithm" (never appear together)
+
+### The Math
+
+During training, the model is optimized to:
+
+```
+If two words appear in similar contexts → their vectors should be close
+If two words appear in different contexts → their vectors should be far
+```
+
+### Key Insight
+
+The model doesn't "understand" that a ball is round. It just learned from text:
+
+```
+"ball" appears near: game, play, round, sports, soccer, ball, throw, catch...
+"circle" appears near: round, shape, draw, geometry, center, radius, arc...
+
+Overlap in training: "round" → vectors become close
+```
+
+### Summary
+
+| Step | What happens |
+|------|-------------|
+| 1. | Train on billions of sentences |
+| 2. | Learn which words appear near which other words |
+| 3. | Map patterns to vector coordinates |
+| 4. | Similar contexts → similar vectors |
+| 5. | At runtime: convert new text to vector using learned patterns |
+
+---
+
 ## Key Takeaways
 
 1. **Embeddings** - Convert text to vectors
