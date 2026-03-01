@@ -67,7 +67,7 @@ npx skills-installer install @owner/skill-name
 
 ---
 
-### MCP (mcp_nonllmcontext.md)
+### MCP (nonllmcontext/mcp.md)
 
 Connects agents to external tools/data sources - the "USB-C for AI".
 
@@ -96,7 +96,7 @@ Quick-triggered custom instructions.
 
 ---
 
-### Hooks (hooks_nonllmcontext.md)
+### Hooks (nonllmcontext/hooks.md)
 
 Execute real code at specific points in agent workflow (not LLM context).
 
@@ -116,7 +116,7 @@ Delegate complex tasks to specialized agent instances with isolated context.
 
 ---
 
-### Plugins (plugins.md)
+### Plugins (nonllmcontext/plugins.md)
 
 Bundles of commands + skills + MCP + hooks for distribution.
 
@@ -153,14 +153,32 @@ CLAUDE.md (project context)
 | Project conventions | CLAUDE.md | |
 | Reusable patterns | Skills | skills.md |
 | Custom triggers | Commands | commands.md |
-| External integrations | MCP | mcp_nonllmcontext.md |
-| Workflow automation | Hooks | hooks_nonllmcontext.md |
+| External integrations | MCP | nonllmcontext/mcp.md |
+| Workflow automation | Hooks | nonllmcontext/hooks.md |
 | Complex delegation | Subagents | subagents.md |
-| Team distribution | Plugins | plugins.md |
+| Team distribution | Plugins | nonllmcontext/plugins.md |
 
 ---
 
-## 4. References
+## 6. LLM Concepts
+
+Additional knowledge about how LLMs and agents work.
+
+### nonllmcontext/framework.md
+
+The orchestration layer that coordinates LLM, tools, subagents, plugins, and everything else.
+
+### nonllmcontext/rag.md
+
+Retrieval Augmented Generation - how LLMs access external knowledge through vector databases.
+
+### nonllmcontext/llm_parameters.md
+
+Controls that affect how LLMs generate output (temperature, top-p, etc.).
+
+---
+
+## 7. References
 
 - **AGENTS.md spec:** https://github.com/agentmd/agent.md
 - **Skills spec:** https://agentskills.io
