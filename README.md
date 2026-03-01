@@ -200,6 +200,10 @@ Seed / determinism - reproducible outputs from LLMs.
 
 Prompt injection - security vulnerability via malicious prompts.
 
+### [nonllmcontext/guardrails.md](nonllmcontext/guardrails.md)
+
+Guardrails - filtering unsafe outputs and inputs.
+
 ---
 
 ## 5. References
@@ -241,7 +245,7 @@ Topics to explore later:
 | JSON mode | Force valid JSON responses | ✅ Done |
 | Seed/determinism | Reproducible outputs | ✅ Done |
 | Prompt injection | Security vulnerability via prompts | ✅ Done |
-| Guardrails | Filtering unsafe outputs | |
+| Guardrails | Filtering unsafe outputs | ✅ Done |
 | Evaluation | How to measure LLM quality | |
 | Benchmark datasets | MMLU, HumanEval, etc. | |
 | Quantization | Smaller models (4-bit, 8-bit) | |
