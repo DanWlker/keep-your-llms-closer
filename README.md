@@ -151,38 +151,38 @@ CLAUDE.md (project context)
 | Scenario | Use | Detailed Notes |
 |----------|-----|----------------|
 | Project conventions | CLAUDE.md | |
-| Reusable patterns | Skills | skills.md |
-| Custom triggers | Commands | commands.md |
-| External integrations | MCP | nonllmcontext/mcp.md |
-| Workflow automation | Hooks | nonllmcontext/hooks.md |
-| Complex delegation | Subagents | subagents.md |
-| Team distribution | Plugins | nonllmcontext/plugins.md |
+| Reusable patterns | Skills | [skills.md](skills.md) |
+| Custom triggers | Commands | [commands.md](commands.md) |
+| External integrations | MCP | [nonllmcontext/mcp.md](nonllmcontext/mcp.md) |
+| Workflow automation | Hooks | [nonllmcontext/hooks.md](nonllmcontext/hooks.md) |
+| Complex delegation | Subagents | [subagents.md](subagents.md) |
+| Team distribution | Plugins | [nonllmcontext/plugins.md](nonllmcontext/plugins.md) |
 
 ---
 
-## 6. LLM Concepts
+## 4. LLM Concepts
 
 Additional knowledge about how LLMs and agents work.
 
-### nonllmcontext/framework.md
+### [nonllmcontext/framework.md](nonllmcontext/framework.md)
 
 The orchestration layer that coordinates LLM, tools, subagents, plugins, and everything else.
 
-### nonllmcontext/rag.md
+### [nonllmcontext/rag.md](nonllmcontext/rag.md)
 
 Retrieval Augmented Generation - how LLMs access external knowledge through vector databases.
 
-### nonllmcontext/llm_parameters.md
+### [nonllmcontext/llm_parameters.md](nonllmcontext/llm_parameters.md)
 
 Controls that affect how LLMs generate output (temperature, top-p, etc.).
 
-### nonllmcontext/system_tokens_hallucinations.md
+### [nonllmcontext/system_tokens_hallucinations.md](nonllmcontext/system_tokens_hallucinations.md)
 
 System prompts, token limits, and hallucinations - core LLM concepts.
 
 ---
 
-## 7. References
+## 5. References
 
 - **AGENTS.md spec:** https://github.com/agentmd/agent.md
 - **Skills spec:** https://agentskills.io
@@ -195,7 +195,7 @@ System prompts, token limits, and hallucinations - core LLM concepts.
 
 ---
 
-## 5. Timeline
+## 6. Timeline
 
 | Date | Milestone |
 |------|-----------|
