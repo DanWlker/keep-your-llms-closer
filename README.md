@@ -204,6 +204,14 @@ Prompt injection - security vulnerability via malicious prompts.
 
 Guardrails - filtering unsafe outputs and inputs.
 
+### [nonllmcontext/agents.md](nonllmcontext/agents.md)
+
+Agents - full agent architectures with loops, tools, and planning.
+
+### [nonllmcontext/memory_systems.md](nonllmcontext/memory_systems.md)
+
+Memory systems - short-term vs long-term memory for agents.
+
 ---
 
 ## 5. References
@@ -251,5 +259,5 @@ Topics to explore later:
 | Quantization | Smaller models (4-bit, 8-bit) | |
 | Distillation | Smaller model trained on larger one | |
 | Multi-modal | Vision, audio in LLMs | |
-| Agents | Full agent architectures | |
-| Memory systems | Short-term vs long-term |
+| Agents | Full agent architectures | ✅ Done |
+| Memory systems | Short-term vs long-term | ✅ Done |
