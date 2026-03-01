@@ -188,6 +188,10 @@ Fine-tuning - customizing model behavior with your own data.
 
 LoRA / QLoRA - efficient fine-tuning with low-rank adapters and quantization.
 
+### [nonllmcontext/function_calling.md](nonllmcontext/function_calling.md)
+
+Function calling - structured JSON output for tools, and how it relates to MCP.
+
 ---
 
 ## 5. References
@@ -225,8 +229,8 @@ Topics to explore later:
 |-------|-------------|--------|
 | Fine-tuning | Customizing model behavior with your own data | ✅ Done |
 | LoRA / QLoRA | Efficient fine-tuning (low-rank adaptation) | ✅ Done |
-| Function calling | Structured JSON output for tools | |
-| JSON mode | Force valid JSON responses | |
+| Function calling | Structured JSON output for tools | ✅ Done |
+| JSON mode | Force valid JSON responses | ✅ Done |
 | Seed/determinism | Reproducible outputs | |
 | Prompt injection | Security vulnerability via prompts | |
 | Guardrails | Filtering unsafe outputs | |
