@@ -52,7 +52,7 @@ Modular packages of instructions + tools.
 - **Format:** `SKILL.md` folder with resources
 - **Adopted by:** Claude Code, Codex CLI, Copilot, Cursor, Windsurf, Gemini CLI, 20+ agents
 - **Storage:** `~/.claude/skills/` (Claude), `~/.codex/skills/` (Codex)
-- **Marketplace:** skills.sh (280K+ skills)
+- **Marketplace:** skills.sh (80K+ skills)
 
 **Install:**
 ```bash
@@ -62,8 +62,8 @@ npx skills-installer install @owner/skill-name
 **Top skills:**
 | Skill | Installs | Purpose |
 |-------|----------|---------|
-| find-skills | 322K | Discovers other skills |
-| vercel-react-best-practices | 167K | React/Next.js patterns |
+| find-skills | 365K | Discovers other skills |
+| vercel-react-best-practices | 180K | React/Next.js patterns |
 
 ---
 
@@ -237,7 +237,7 @@ Memory systems - short-term vs long-term memory for agents.
 | Dec 2025 | Open standard for Skills published at agentskills.io |
 | Dec 2025 | OpenAI and Microsoft adopt SKILL.md |
 | Jan 2026 | Google Gemini CLI support; skills.sh launches |
-| Feb 2026 | Ecosystem surpasses 280K skills |
+| Feb 2026 | Ecosystem surpasses 80K skills |
 
 ---
 
